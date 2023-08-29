@@ -1,0 +1,24 @@
+.button {
+  font-family: var(--font-secondary);
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #000000;
+  border: none;
+  background: transparent;
+  margin: 10px 0;
+  padding: 15px 30px;
+  transition: 300ms background, 300ms color;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: -0.04em !important;
+  &:hover:not(:disabled) {
+    transition: 300ms background, 300ms color;
+    background: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  :disabled {
+    opacity: .8;
+    cursor: not-allowed;
+  }
+}

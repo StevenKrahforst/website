@@ -1,0 +1,14 @@
+User-Agent: Google
+Allow: /
+
+User-Agent: *
+Disallow: /
+
+User-agent: CuteStat
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /

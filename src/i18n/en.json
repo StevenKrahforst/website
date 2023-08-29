@@ -1,0 +1,41 @@
+{
+  "lang": {
+    "en": "English",
+    "de": "German",
+    "uwu": "UwU"
+  },
+  "cookie": {
+    "text": "This website uses cookies from Cloudflare, so that accesses can be analyzed to prevent attacks.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "home": {
+    "greeting": "Hello",
+    "values": {
+      "privacy": {
+        "title": "Focus on data protection",
+        "text": "I do not collect personal data as long as it is not necessary to"
+      },
+      "adfree": {
+        "title": "No advertising",
+        "text": "All my services are ad free"
+      },
+      "modern": {
+        "title": "Modern as possible",
+        "text": "I use the latest technologies and design as simple as possible"
+      },
+      "security": {
+        "title": "Best possible safety",
+        "text": "I ensure that all data and connections are fully encrypted"
+      },
+      "passion": {
+        "title": "With passion",
+        "text": "I program almost every day and like to experiment with new technologies"
+      },
+      "target": {
+        "title": "Young target group",
+        "text": "One of the ways I reach Generation Z is by being a part of it myself"
+      }
+    }
+  }
+}

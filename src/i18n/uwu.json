@@ -1,0 +1,41 @@
+{
+  "lang": {
+    "en": "English",
+    "de": "German",
+    "uwu": "UwU"
+  },
+  "cookie": {
+    "text": "This website uses cookies *runs away* fwom Cwoudfwawe, so that accesses c-can be anyawyzed t-to pwevent attacks.",
+    "accept": "Accept",
+    "decline": "Decwinye"
+  },
+  "home": {
+    "greeting": "Hewwo",
+    "values": {
+      "privacy": {
+        "title": "Focus on data pwotection *huggles tightly*",
+        "text": "I do nyot cowwect pewsonyaw data as w-wong as i-it is nyot nyecessawy *starts twerking* t-to"
+      },
+      "adfree": {
+        "title": "Nyo advewtising",
+        "text": "aww >w< my sewvices awe ad fwee"
+      },
+      "modern": {
+        "title": "Modewn as possibwe",
+        "text": "I use the x3 watest technyowogies and design as simpwe as possibwe"
+      },
+      "security": {
+        "title": "Best possibwe safety",
+        "text": "I ensuwe that aww data and c-c-connyections awe fuwwy encwypted"
+      },
+      "passion": {
+        "title": "W-With passion",
+        "text": "I pwogwam awmost *walks away* evewy day and wike *screams* t-to expewiment *blushes* with nyew technyowogies"
+      },
+      "target": {
+        "title": "Young tawget gwoup",
+        "text": "O-Onye of the x3 ways I weach Genyewation Z is by b-being a pawt of i-it mysewf"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "lang": {
+    "en": "Englisch",
+    "de": "Deutsch",
+    "uwu": "Uwuisch"
+  },
+  "cookie": {
+    "text": "Diese Webseite verwendet Cookies von Cloudflare, damit Zugriffe analysiert werden können um Attacken zu vermeiden.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
+  "home": {
+    "greeting": "Hallo",
+    "values": {
+      "privacy": {
+        "title": "Datenschutz im Fokus",
+        "text": "Ich erhebe keine personenbezogene Daten, solange es nicht nötig ist"
+      },
+      "adfree": {
+        "title": "Keine Werbung",
+        "text": "All meine Dienste sind werbefrei"
+      },
+      "modern": {
+        "title": "Möglichst Modern",
+        "text": "Ich nutze die neusten Technologien und gestalte so simpel wie möglich"
+      },
+      "security": {
+        "title": "Bestmögliche Sicherheit",
+        "text": "Ich sorge dafür, dass alle Daten und Verbindungen vollständig verschlüsselt sind"
+      },
+      "passion": {
+        "title": "Mit Leidenschaft",
+        "text": "Ich programmiere fast jeden Tag und experimentiere gerne mit neuen Technologien"
+      },
+      "target": {
+        "title": "Junge Zielgruppe",
+        "text": "Ich erreiche u.A. die Generation Z dadurch, da ich selbst ein Teil davon bin"
+      }
+    }
+  }
+}
