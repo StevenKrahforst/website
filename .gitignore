@@ -37,3 +37,7 @@ next-env.d.ts
 # lock files
 yarn.lock
 package-lock.json
+
+# custom
+src/locales.json
+src/socials.json
