@@ -2,6 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 
+import Head from 'next/head';
+
 import Blob from '@/components/blob';
 import Twemoji from '@/components/twemoji';
 
@@ -9,19 +11,16 @@ import socials from '../../socials.json';
 
 import '../../pages/home/style.scss';
 
-import type { Metadata } from 'next'
- 
-export const metadata: Metadata = {
-  title: 'Steven Krahforst » Website',
-  description: 'Website of Steven Krahforst'
-};
-
 const Home: React.FunctionComponent = (): React.ReactNode => {
 
   const t = useTranslations('home');
 
   return (
     <div>
+      <Head>
+        <title>{ t('title') }</title>
+        <meta name="description" content={ t('description') } />
+      </Head>
       <div className="main-section">
         <Blob />
         <div className="main-content">
