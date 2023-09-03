@@ -9,7 +9,12 @@ import socials from '../../socials.json';
 
 import '../../pages/home/style.scss';
 
-// WARUM?!?!
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Steven Krahforst » Website',
+  description: 'Website of Steven Krahforst'
+};
 
 const Home: React.FunctionComponent = (): React.ReactNode => {
 

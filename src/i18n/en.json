@@ -10,6 +10,8 @@
     "decline": "Decline"
   },
   "home": {
+    "title": "Steven Krahforst » Website",
+    "description": "Webseite of Steven Krahforst",
     "greeting": "Hello",
     "values": {
       "privacy": {
