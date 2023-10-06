@@ -3,7 +3,6 @@ import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 
 import Head from 'next/head';
-import Script from 'next/script';
 
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
@@ -89,17 +88,6 @@ export default async function RootLayout({
           <Footer />
           <CookieConsent />
         </NextIntlClientProvider>
-        <Script async defer data-website-id="1ee45743-c0ed-4629-a622-b2c1185eed45" src="https://umami.krahforst.dev/umami.js" />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-NQRESZGTVC" />
-        <Script id="google-analytics">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-  
-            gtag('config', 'G-NQRESZGTVC');
-          `}
-        </Script>
       </body>
     </html>
   );
