@@ -1,28 +1,27 @@
 {
-  "name": "website",
-  "version": "0.1.0",
+  "name": "@krahforst/website",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "@fontsource-variable/inter": "^5.0.8",
-    "@fontsource/fira-sans": "^5.0.9",
-    "@types/node": "20.5.7",
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
-    "classnames": "^2.3.2",
-    "framer-motion": "^10.16.1",
-    "next": "13.4.19",
-    "next-intl": "^2.20.0",
+    "@fontsource-variable/inter": "^5.0.16",
+    "@fontsource/fira-sans": "^5.0.18",
+    "@types/node": "20.10.6",
+    "@types/react": "18.2.46",
+    "@types/react-dom": "18.2.18",
+    "classnames": "^2.5.1",
+    "framer-motion": "^10.16.16",
+    "next": "14.0.4",
+    "next-intl": "^3.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.66.1",
-    "styled-components": "^6.0.7",
+    "sass": "^1.69.6",
+    "styled-components": "^6.1.6",
     "twemoji": "^14.0.2",
-    "typescript": "5.2.2"
+    "typescript": "5.3.3"
   }
 }

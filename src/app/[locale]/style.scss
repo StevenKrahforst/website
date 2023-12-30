@@ -16,7 +16,6 @@
     .title {
       font-weight: 900;
       font-size: 4.5rem;
-      margin-bottom: 50px;
       .hand {
         @media (prefers-reduced-motion: no-preference) {
           animation: hand-animation 2.667s infinite;
@@ -26,59 +25,18 @@
       }
     }
     .social-container {
-      .social-icon {
-        margin: 0px 7.5px;
+      margin-top: 25px;
+      .discord {
+        margin: 0 7.5px;
         > svg {
           transition: color 300ms;
           width: 32px;
           height: 32px;
           &:hover {
             cursor: pointer;
-            color: var(--color);
+            color: #7289DA;
             transition: color 300ms;
           }
-        }
-      }
-    }
-  }
-}
-
-.values-section {
-  width: 100%;
-  min-height: 600px;
-  margin: 0 0 150px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  .values-container {
-    width: clamp(600px, 80%, 90%);
-    @media only screen and (max-width: 800px) {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      &:nth-child(odd) {
-        margin-left: unset;
-      }
-    }
-    .value {
-      width: 95%;
-      margin: 25px;
-      padding: 50px;
-      border: none;
-      border-radius: 12px;
-      min-height: 150px;
-      background: #FEFEFE;
-      box-shadow: 0 22px 45px 0 rgba(0, 0, 0, 0.11);
-      .value-text {
-        margin: 30px 0 10px 0;
-      }
-      @media only screen and (min-width: 1000px) {
-        width: clamp(0px, 600px, 95%);
-        margin: 50px;
-        &:nth-child(even) {
-          margin-left: auto;
         }
       }
     }

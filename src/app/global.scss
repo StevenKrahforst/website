@@ -29,6 +29,22 @@ a {
   padding: 0;
 }
 
+h1, p, a, button {
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+h1, p, a {
+  font-family: var(--font-primary);
+}
+
+button {
+  font-family: var(--font-secondary);
+}
+
 ::-webkit-scrollbar {
   display: none;
 }

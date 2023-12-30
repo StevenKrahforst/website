@@ -1,18 +1,18 @@
 import { NextIntlClientProvider } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 import { notFound } from 'next/navigation';
 
 import Head from 'next/head';
 
 import Navbar from '@/components/navbar';
-import Footer from '@/components/footer';
 import CookieConsent from '@/components/cookie';
 
 import '@fontsource-variable/inter';
 
 import '@fontsource/fira-sans/800.css';
 
-import '../globals.scss';
+import '../global.scss';
 
 import locales from '../../locales.json';
 
@@ -21,7 +21,9 @@ export function generateStaticParams(): Array<{ locale: string }> {
     locale: locale
   })));
 }
- 
+
+export const dynamic = 'force-static';
+
 export default async function RootLayout({
   children,
   params: {
@@ -31,6 +33,8 @@ export default async function RootLayout({
   children: React.ReactNode,
   params: any
 }) {
+
+  unstable_setRequestLocale(locale);
 
   let messages;
   try {
@@ -84,8 +88,7 @@ export default async function RootLayout({
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
-            { children }
-          <Footer />
+          { children }
           <CookieConsent />
         </NextIntlClientProvider>
       </body>
